@@ -5,22 +5,26 @@ body {
 }
 
 #main-container {
-  display: flex;
-  flex-direction: column;
   width: 100%
 }
 
 nav {
   display: flex;
   justify-content: center;
+  background-color: black;
+  height: 80px;
 }
 
 #nav-content {
-  display: flex;
+  display: grid;
+  
   width: 80%;
+  color: white;
 }
 
-h2 {
+
+
+h3 {
   font-family: 'DM Sans', sans-serif;
 }
 
