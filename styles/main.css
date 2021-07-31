@@ -5,7 +5,7 @@ body {
 }
 
 #main-container {
-  width: 100%
+  width: 100%;
 }
 
 nav {
@@ -20,6 +20,10 @@ nav {
   
   width: 80%;
   color: white;
+}
+
+#genji-icon {
+  height: 40px;
 }
 
 
