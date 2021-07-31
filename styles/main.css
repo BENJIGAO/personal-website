@@ -17,13 +17,19 @@ nav {
 
 #nav-content {
   display: grid;
-  
+  grid-template-columns: 200px 200px 200px 200px;
+  align-items: center;
   width: 80%;
   color: white;
 }
 
+#nav-name-and-icon {
+  display: flex;
+  align-items: center;
+}
+
 #genji-icon {
-  height: 40px;
+  height: 70px;
 }
 
 
