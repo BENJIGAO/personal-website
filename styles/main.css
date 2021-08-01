@@ -23,7 +23,7 @@ nav {
 
 #nav-left {
   display: flex;
-  width: 40%;
+  width: 38%;
   align-items: center;
   align-self: flex-start;
   height: 100%
@@ -33,23 +33,34 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 50%;
+  width: 55%;
   height: 100%;
 }
 
 #genji-icon {
-  height: 50px;
+  height: 40px;
   margin-right: 10px;
 }
 #name {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
 }
 
-.nav-option {
+.for-later-use-class {
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
 }
+
+.nav-option {
+  font-size: 18px;
+  padding: 18px;
+  background-color: #323232;
+  color: lightgray;
+}
+
+.nav-option:hover {
+  background-color: darkgreen;
+}
+
 
 
 
