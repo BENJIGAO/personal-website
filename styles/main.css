@@ -16,27 +16,42 @@ nav {
 }
 
 #nav-content {
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  align-items: center;
-  width: 80%;
+  display: flex;
+  width: 70%;
   color: white;
 }
 
-#nav-name-and-icon {
+#nav-left {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  align-self: flex-start;
+  height: 100%
+}
+
+#nav-right {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
 }
 
 #genji-icon {
-  height: 70px;
+  height: 50px;
+  margin-right: 10px;
+}
+#name {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-
-
-h3 {
+.nav-option {
   font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
 }
+
+
 
 
 
