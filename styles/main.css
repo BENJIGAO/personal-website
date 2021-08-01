@@ -61,6 +61,21 @@ nav {
   background-color: darkgreen;
 }
 
+#content-container {
+  background: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+
+}
+
+#content {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
 
 
