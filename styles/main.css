@@ -50,7 +50,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 7.8em 6.4em 6.4em 7.8em;
+  grid-template-columns: 7.7em 6.3em 6.3em 7.7em;
   column-gap: 0.3em;
   width: 60%;
   height: 100%;
@@ -68,6 +68,7 @@ nav {
 
 p {
   font-family: 'DM Sans', sans-serif;
+  font-size: 1.5em;
 }
 
 .nav-option {
@@ -93,10 +94,16 @@ p {
   height: 80%;
   width: 70%;
   display: grid;
-  grid-template-columns: 55% 40%;
+  grid-template-columns: 52% 40%;
   column-gap: 5%;
   justify-content: center;
   flex-direction: column;
+}
+
+#intro-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 h1 {
