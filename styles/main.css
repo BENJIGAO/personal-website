@@ -19,10 +19,23 @@ nav {
   height: 5em;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+}
+
 #nav-content {
   display: flex;
   width: 70%;
   color: white;
+}
+
+#in-place-for-nav {
+  height: 5em;
+
 }
 
 #nav-left {
@@ -37,7 +50,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 8em 6.6em 6.6em 8em;
+  grid-template-columns: 7.8em 6.4em 6.4em 7.8em;
   column-gap: 0.3em;
   width: 60%;
   height: 100%;
@@ -45,7 +58,7 @@ nav {
 
 #genji-icon {
   height: 2.5em;
-  margin-right: 1.6em;
+  margin-right: 1em;
 }
 
 #name {
@@ -53,13 +66,13 @@ nav {
   font-weight: bold;
 }
 
-.for-later-use-class {
+p {
   font-family: 'DM Sans', sans-serif;
 }
 
 .nav-option {
   font-size: 1.125em;
-  padding: 1.125em;
+  padding: 1em;
   background-color: #323232;
   color: lightgray;
 }
@@ -68,18 +81,28 @@ nav {
   background-color: darkgreen;
 }
 
-#content-container {
-  background: #dfdfdf;
+#intro-container {
+  background: #f1f4f8;
   display: flex;
   justify-content: center;
-  height: 18.75em;
+  align-items: center;
+  height: 28em;
 }
 
-#content {
+#intro {
+  height: 80%;
   width: 70%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 55% 40%;
+  column-gap: 5%;
   justify-content: center;
   flex-direction: column;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+
 }
 
 
