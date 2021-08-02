@@ -4,6 +4,10 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 #main-container {
   width: 100%;
 }
@@ -43,6 +47,7 @@ nav {
   height: 2.5em;
   margin-right: 1.6em;
 }
+
 #name {
   font-size: 1.6875em;
   font-weight: bold;
