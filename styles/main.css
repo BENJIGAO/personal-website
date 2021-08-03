@@ -4,6 +4,10 @@ body {
   justify-content: center;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
