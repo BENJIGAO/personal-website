@@ -8,6 +8,19 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3em;
+  border: solid black;
+  background-color: orange;
+  padding: 0.5em 1em;
+  box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px, rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px, rgb(240 46 170 / 5%) -25px 25px;
+}
+
 #main-container {
   width: 100%;
 }
@@ -109,7 +122,11 @@ p {
 h1 {
   font-size: 3em;
   font-weight: bold;
+}
 
+#intro-button-container {
+  display: flex;
+  justify-content: center;
 }
 
 
