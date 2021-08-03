@@ -9,14 +9,15 @@ a {
 }
 
 button:hover {
-  
+  transform: translateY(0.2em);
+
 }
 
 button {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.3em;
   border: solid black;
-  background-color: orange;
+  background-color: #ffb52c;
   padding: 0.5em 1em;
   box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px, rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px, rgb(240 46 170 / 5%) -25px 25px;
 }
@@ -101,6 +102,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 28em;
+  border-bottom: solid 0.1em gray;
 }
 
 #intro {
@@ -129,6 +131,11 @@ h1 {
   justify-content: center;
 }
 
+#my-photo {
+  vertical-align: -webkit-baseline-middle;
+  height: 20em;
+  border: solid black 0.5em
+}
 
 
 
