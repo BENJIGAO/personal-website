@@ -14,16 +14,17 @@ a {
 
 button:hover {
   transform: translateY(0.2em);
-
 }
 
 button {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 1.3em;
   border: solid black;
   background-color: #ffb52c;
   padding: 0.5em 1em;
-  box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px, rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px, rgb(240 46 170 / 5%) -25px 25px;
+  box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px,
+    rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px,
+    rgb(240 46 170 / 5%) -25px 25px;
 }
 
 #main-container {
@@ -42,7 +43,6 @@ nav {
   top: 0;
   left: 0;
   right: 0;
- 
 }
 
 #nav-content {
@@ -53,7 +53,6 @@ nav {
 
 #in-place-for-nav {
   height: 5em;
-
 }
 
 #nav-left {
@@ -61,7 +60,7 @@ nav {
   width: 38%;
   align-items: center;
   align-self: flex-start;
-  height: 100%
+  height: 100%;
 }
 
 #nav-right {
@@ -85,7 +84,7 @@ nav {
 }
 
 p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 1.5em;
 }
 
@@ -138,10 +137,23 @@ h1 {
 #my-photo {
   vertical-align: -webkit-baseline-middle;
   height: 20em;
-  border: solid black 0.5em
+  border: solid black 0.5em;
 }
 
+#projects-container {
+  display: flex;
+  justify-content: center;
+  height: 40em;
+}
 
+#projects {
+  width: 68%;
+  margin-top: 2.5em;
+}
 
-
-
+#projects-header {
+  font-size: 2.5em;
+  font-weight: bold;
+  border-bottom: solid 0.04em;
+  padding-bottom: 0.4em;
+}
