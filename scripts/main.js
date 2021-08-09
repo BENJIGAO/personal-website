@@ -6,6 +6,8 @@ function activateBtns() {
 }
 
 function showContent(e) {
-  const projectHeader = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
-  projectHeader.nextElementSibling.classList.toggle("visible")
+  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
+  projectMain.nextElementSibling.classList.toggle("visible")
+  projectMain.firstElementChild.classList.toggle("rotated-dropdown")
+  
 }
