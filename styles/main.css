@@ -177,6 +177,7 @@ h1 {
   padding: 1em;
   background-color: #eee;
   color: #4e4e4e;
+  border: solid 0.05em;
 }
 
 .dropdown {
