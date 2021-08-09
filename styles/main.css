@@ -147,7 +147,6 @@ h1 {
 #projects-container {
   display: flex;
   justify-content: center;
-  height: 40em;
 }
 
 #projects {
@@ -165,6 +164,23 @@ h1 {
 
 .project {
   display: flex;
+  flex-direction: column;
+}
+
+.project-main {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: lightgray;
+}
+
+.dropdown {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+.project-main:hover {
+  background-color: darkgray;
 }
 
 .project-header {
@@ -183,4 +199,8 @@ h1 {
 .project-description {
   font-size: 1.15em;
   transform: translateY(0.1em);
+}
+
+.project-img {
+  display: none;
 }
