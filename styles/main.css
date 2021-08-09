@@ -185,19 +185,19 @@ h1 {
   margin-right: 1em;
 }
 
-.project-main:hover {
+.project-main-hover {
   background-color: #4e4e4e;
 }
 
-.project-main:hover .project-description {
+.project-description-hover {
   color: #e9eeee;
 }
 
-.project-main:hover .dropdown {
+.dropdown-hover {
   color: #e9eeee;
 }
 
-.project-main:hover .project-header {
+.project-header-hover {
   border-color: #e9eeee;
   color: #e9eeee;
   background-color: #029402;
@@ -224,6 +224,9 @@ h1 {
 
 .project-dropdown {
   display: none;
+  border-left: solid 0.05em;
+  border-right: solid 0.05em;
+  border-down: solid 0.05em;
 }
 
 .visible {
