@@ -1,3 +1,3 @@
 # Personal Website
 
-Welcome to my website! As of right now, I haven't started it. However, I will soon.
+Welcome to my website! It's under development as of right now, so stay tuned!
