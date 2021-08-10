@@ -17,18 +17,21 @@ a {
   text-decoration: none;
 }
 
-button:hover {
+#intro-btn:hover {
   transform: translateY(0.2em);
 }
 
-button {
-  font-size: 1.3em;
-  border: solid black;
-  background-color: #ffb52c;
-  padding: 0.5em 1em;
+#intro-btn {
   box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px,
     rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px,
     rgb(240 46 170 / 5%) -25px 25px;
+  background-color: #ffb52c;
+  font-size: 1.3em;
+}
+
+button {
+  border: solid black;
+  padding: 0.5em 1em;
 }
 
 #main-container {
@@ -233,4 +236,16 @@ h1 {
   border-color: #e9eeee;
   color: #e9eeee;
   background-color: #029402;
+}
+
+.extra-details {
+  background-color: #eee;
+  margin-top: -1em;
+  padding-top: 1em;
+}
+
+.project-btn {
+  font-size: 1em;
+  background-color: #2196f3;
+  box-shadow: 0.5em 0.5em;
 }
