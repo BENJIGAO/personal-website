@@ -25,13 +25,21 @@ function addHover(e) {
   projectMain.firstElementChild.classList.add("dropdown-hover");
   projectMain.firstElementChild.nextElementSibling.classList.add("project-header-hover")
   projectMain.firstElementChild.nextElementSibling.nextElementSibling.classList.add("project-description-hover")
-
 }
 
 function showContent(e) {
   const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
-  projectMain.nextElementSibling.classList.toggle("visible")
+  const projectDropdown = projectMain.nextElementSibling
+  projectDropdown.classList.toggle("visible")
   projectMain.firstElementChild.classList.toggle("rotated-dropdown")
-  projectMain.nextElementSibling.classList
-  
+  projectDropdown.classList[0] == "visible" || projectDropdown.classList[1] == "visible" ? staticAddHover(projectMain) : dynamicRemoveHover(e, projectMain);
+}
+
+function staticAddHover(ele) {
+  ele.removeEventListener("mouseleave", removeHover)
+}
+
+function dynamicRemoveHover(e, ele) {
+  ele.addEventListener("mouseleave", removeHover);
+  removeHover(e);
 }
