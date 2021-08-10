@@ -209,7 +209,7 @@ h1 {
   display: none;
   border-left: solid 0.05em;
   border-right: solid 0.05em;
-  border-down: solid 0.05em;
+  border-bottom: solid 0.05em;
 }
 
 .visible {
@@ -242,24 +242,42 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: #eee;
-  margin-top: -1em;
-  padding-top: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: solid 0.05em;
 }
 
 .btn-container {
   display: flex;
   align-items: center;
   align-self: center;
+  width: 72%;
+  justify-content: space-evenly;
 }
 
 .project-links {
   font-size: 1em;
   background-color: #2196f3;
-  box-shadow: 0.5em 0.5em;
+  box-shadow: 0.35em 0.35em;
 }
 
 .project-tools {
   font-size: 1em;
   background-color: peachpuff;
-  box-shadow: 0.5em 0.5em;
+  box-shadow: 0.35em 0.35em;
+}
+
+.vertical-line {
+  height: 3em;
+  width: 1em;
+  margin-left: 1em;
+  border-left: solid 0.2em;
+}
+
+.project-links:hover {
+  background-color: #77bffa;
+}
+
+.project-tools:hover {
+  background-color: rgb(252, 153, 66);
 }
