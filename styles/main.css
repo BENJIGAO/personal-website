@@ -239,13 +239,27 @@ h1 {
 }
 
 .extra-details {
+  display: flex;
+  flex-direction: column;
   background-color: #eee;
   margin-top: -1em;
   padding-top: 1em;
 }
 
-.project-btn {
+.btn-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.project-links {
   font-size: 1em;
   background-color: #2196f3;
+  box-shadow: 0.5em 0.5em;
+}
+
+.project-tools {
+  font-size: 1em;
+  background-color: peachpuff;
   box-shadow: 0.5em 0.5em;
 }
