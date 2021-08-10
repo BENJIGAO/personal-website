@@ -32,11 +32,13 @@ function showContent(e) {
   const projectDropdown = projectMain.nextElementSibling
   projectDropdown.classList.toggle("visible")
   projectMain.firstElementChild.classList.toggle("rotated-dropdown")
-  projectDropdown.classList[0] == "visible" || projectDropdown.classList[1] == "visible" ? staticAddHover(projectMain) : dynamicRemoveHover(e, projectMain);
+  projectDropdown.classList[0] == "visible" || projectDropdown.classList[1] == "visible" ? staticAddHover(e, projectMain) : dynamicRemoveHover(e, projectMain);
 }
 
-function staticAddHover(ele) {
-  ele.removeEventListener("mouseleave", removeHover)
+function staticAddHover(e, ele) {
+  console.log("test")
+  ele.removeEventListener("mouseleave", removeHover);
+  addHover(e);
 }
 
 function dynamicRemoveHover(e, ele) {
