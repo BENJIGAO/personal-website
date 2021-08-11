@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+#intro-description {
+  line-height: 1.1em;
+}
+
 #intro-btn:hover {
   transform: translateY(0.2em);
 }
@@ -141,10 +145,10 @@ h1 {
 
 #my-photo {
   vertical-align: -webkit-baseline-middle;
-  height: 22em;
+  height: 23em;
   border: solid black 0.5em;
   object-fit: cover;
-  width: 20em;
+  width: 21em;
   max-width: 20em;
 }
 
@@ -280,4 +284,8 @@ h1 {
 
 .project-tools:hover {
   background-color: rgb(252, 153, 66);
+}
+
+#etch-a-sketch {
+  font-size: 0.5em;
 }
