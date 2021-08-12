@@ -213,9 +213,6 @@ h1 {
   color: rgb(59, 59, 59);
 }
 
-.project-header {
-}
-
 .project-description {
   font-size: 1.15em;
   transform: translateY(0.1em);
@@ -308,4 +305,11 @@ h1 {
 
 #rock-paper-scissors {
   font-size: 0.9em;
+}
+
+#skills-background {
+  background-color: #f1f4f8;
+  margin-top: 3em;
+  border-top: solid 0.1em gray;
+  border-bottom: solid 0.1em gray;
 }
