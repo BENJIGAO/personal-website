@@ -156,17 +156,17 @@ h1 {
   max-width: 20em;
 }
 
-#projects-container {
+.section-container {
   display: flex;
   justify-content: center;
 }
 
-#projects {
+.section {
   width: 68%;
   margin-top: 2.5em;
 }
 
-#projects-header {
+.section-header {
   font-size: 2.5em;
   font-weight: bold;
   border-bottom: solid 0.04em;
