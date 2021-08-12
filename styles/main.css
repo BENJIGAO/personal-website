@@ -295,4 +295,9 @@ h1 {
 }
 
 #etch-a-sketch {
+  font-size: 0.75em;
+}
+
+#rock-paper-scissors {
+  font-size: 0.9em;
 }
