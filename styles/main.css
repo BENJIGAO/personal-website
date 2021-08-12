@@ -4,6 +4,10 @@ body {
   justify-content: center;
 }
 
+strong {
+  font-weight: bold;
+}
+
 img {
   max-width: 100%;
 }
@@ -284,6 +288,10 @@ h1 {
   width: 1em;
   margin-left: 1em;
   border-left: solid 0.2em;
+}
+
+.project-img {
+  margin-bottom: -0.5em;
 }
 
 .project-links:hover {
