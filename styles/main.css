@@ -22,7 +22,7 @@ a {
 }
 
 #intro-description {
-  line-height: 1.1em;
+  line-height: 1.3em;
 }
 
 #intro-btn:hover {
@@ -328,7 +328,7 @@ h1 {
 #focus-text {
   font-weight: bold;
   font-size: 4em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 .text-center {
@@ -346,14 +346,35 @@ hr {
 }
 
 #sql {
-  width: 6em;
+  width: 5.5em;
 }
 
-#not-familiar-languages {
+#familiar-languages,
+#not-familiar-languages,
+#frameworks-container {
   display: flex;
   align-items: center;
+  margin: 1em 0em;
+  width: 40%;
+  justify-content: space-evenly;
 }
 
 i {
   font-size: 4em;
+}
+
+#js-icon {
+  font-size: 3.5em;
+}
+
+.more-space {
+  line-height: 1.5em;
+}
+
+.bigger-size {
+  font-size: 5em;
+}
+
+#frameworks-container {
+  width: 30%;
 }
