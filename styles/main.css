@@ -344,3 +344,16 @@ hr {
   height: 1px;
   margin: 2em 0em;
 }
+
+#sql {
+  width: 6em;
+}
+
+#not-familiar-languages {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  font-size: 4em;
+}
