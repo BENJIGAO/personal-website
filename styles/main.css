@@ -378,3 +378,8 @@ i {
 #frameworks-container {
   width: 30%;
 }
+
+#awards {
+  display: flex;
+  
+}
