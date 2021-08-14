@@ -381,5 +381,23 @@ i {
 
 #awards {
   display: flex;
-  
+  justify-content: space-evenly;
+}
+
+.award {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.award-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: solid 0.04em;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+.award-description {
+  font-size: 1.3em;
 }
