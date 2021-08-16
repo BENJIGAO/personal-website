@@ -468,3 +468,17 @@ i {
 #school-link-btn {
   background-color: #ffb52c;
 }
+
+#awards-section {
+  position: relative;
+}
+
+.award-img {
+  position: absolute;
+  top: 5em;
+  display: none;
+}
+
+#top-scholar-picture:hover #top-scholar-img {
+  display: block;
+}
