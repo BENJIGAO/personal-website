@@ -495,4 +495,30 @@ i {
   margin-top: 10.5em;
   border-top: solid 0.1em;
   border-bottom: solid 0.1em;
+  padding-bottom: 3em;
+}
+
+#about-me-container {
+  width: 80%;
+}
+
+.caption {
+  color: gray;
+}
+
+figure {
+  margin: 2em 0em;
+}
+
+#quote {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin: 2em 0em;
+}
+
+#copyright {
+  height: 8em;
+  width: 100%;
+  background-color: black;
 }
