@@ -117,7 +117,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 32em;
+  padding: 3.5em 0em 4.5em 0em;
   border-bottom: solid 0.1em gray;
 }
 
@@ -433,6 +433,11 @@ i {
 
 .top-scholar-btn-left {
   margin: 0.5em 0.5em 0.5em 0em;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
 }
 
 .top-scholar-btn-right {
