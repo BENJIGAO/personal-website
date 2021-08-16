@@ -429,6 +429,7 @@ i {
 
 .top-scholar-btn-left {
   background-color: #ffb52c;
+  width: 100%;
 }
 
 .top-scholar-btn-left {
@@ -472,6 +473,12 @@ i {
 
 #school-link-btn {
   background-color: #ffb52c;
+  width: 100%;
+}
+
+#school-link-btn:hover,
+.top-scholar-btn-left:hover {
+  background-color: lightcoral;
 }
 
 #awards-section {
