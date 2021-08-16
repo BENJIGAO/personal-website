@@ -7,6 +7,27 @@ function activateBtns() {
     project.addEventListener("mouseenter", addHover)
     project.addEventListener("mouseleave", removeHover)
   })
+  document.getElementById("top-scholar-picture").addEventListener("mouseenter", showTopScholar)
+  document.getElementById("top-scholar-img").addEventListener("mouseleave", hideTopScholar)
+  document.getElementById("school-awards-picture").addEventListener("mouseenter", showSchoolAwards)
+  document.getElementById("school-awards-img").addEventListener("mouseleave", hideSchoolAwards)
+}
+
+function showTopScholar() {
+  document.getElementById("top-scholar-img").classList.add("display")
+  console.log("enter")
+}
+
+function hideTopScholar() {
+  document.getElementById("top-scholar-img").classList.remove("display");
+}
+
+function showSchoolAwards() {
+  document.getElementById("school-awards-img").classList.add("display")
+}
+
+function hideSchoolAwards() {
+  document.getElementById("school-awards-img").classList.remove("display");
 }
 
 function removeHover(e) {

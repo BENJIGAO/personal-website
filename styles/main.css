@@ -477,8 +477,14 @@ i {
   position: absolute;
   top: 5em;
   display: none;
+  z-index: 1;
+  border: solid 0.1em;
 }
 
 #top-scholar-picture:hover #top-scholar-img {
+  display: block;
+}
+
+.display {
   display: block;
 }
