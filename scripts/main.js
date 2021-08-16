@@ -57,7 +57,6 @@ function showContent(e) {
 }
 
 function staticAddHover(e, ele) {
-  console.log("test")
   ele.removeEventListener("mouseleave", removeHover);
   addHover(e);
 }
