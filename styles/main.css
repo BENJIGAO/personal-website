@@ -25,11 +25,11 @@ a {
   line-height: 1.3em;
 }
 
-#intro-btn:hover {
+.intro-btn:hover {
   transform: translateY(0.2em);
 }
 
-#intro-btn {
+.intro-btn {
   box-shadow: rgb(240 46 170 / 40%) -5px 5px, rgb(240 46 170 / 30%) -10px 10px,
     rgb(240 46 170 / 20%) -15px 15px, rgb(240 46 170 / 10%) -20px 20px,
     rgb(240 46 170 / 5%) -25px 25px;
@@ -142,9 +142,9 @@ h1 {
   font-weight: bold;
 }
 
-#intro-button-container {
+#intro-btn-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #my-photo {
@@ -521,4 +521,11 @@ figure {
   height: 8em;
   width: 100%;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright-message {
+  color: white;
+  font-size: 1em;
 }
