@@ -389,7 +389,7 @@ i {
   flex-direction: column;
   width: 35%;
   border: solid 0.1em;
-  padding: 1.5em;
+  padding: 1.5em 1.5em 1em 1.5em;
   background-color: #e9eeee;
 }
 
@@ -417,14 +417,25 @@ i {
 
 #top-scholar-btns {
   display: flex;
+  padding: 0.5em 0em 0.5em 0em;
+  justify-content: space-between;
 }
 
 #top-scholar-btns-left {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+.top-scholar-btn-left-top {
+  background-color: #ffb52c;
+  font-size: 1em;
 }
 
 .top-scholar-btn-left {
-  background-color: #ffb52c;
-  font-size: 1.3em;
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+
+.top-scholar-btn-right {
+  margin: 0.5em 0em 0.5em 0.5em;
 }
