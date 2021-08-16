@@ -427,9 +427,8 @@ i {
   width: 50%;
 }
 
-.top-scholar-btn-left-top {
+.top-scholar-btn-left {
   background-color: #ffb52c;
-  font-size: 1em;
 }
 
 .top-scholar-btn-left {
@@ -438,4 +437,22 @@ i {
 
 .top-scholar-btn-right {
   margin: 0.5em 0em 0.5em 0.5em;
+}
+
+#school-awards-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.school-award-btn-top {
+  margin: 0em 0em 0.5em 0em;
+}
+
+.school-award-btn-bottom {
+  margin: 0.5em 0em 0em 0em;
+}
+
+#school-link-btn {
+  background-color: #ffb52c;
 }
