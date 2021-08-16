@@ -479,6 +479,7 @@ i {
   display: none;
   z-index: 1;
   border: solid 0.1em;
+  width: 90%;
 }
 
 #top-scholar-picture:hover #top-scholar-img {
@@ -487,4 +488,11 @@ i {
 
 .display {
   display: block;
+}
+
+#about-section {
+  background-color: #e9eeee;
+  margin-top: 10.5em;
+  border-top: solid 0.1em;
+  border-bottom: solid 0.1em;
 }
