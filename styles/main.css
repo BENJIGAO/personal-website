@@ -406,7 +406,13 @@ i {
 }
 
 .award-description {
-  font-size: 1.3em;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.award-anecdote {
+  font-size: 1.2em;
+  display: none;
 }
 
 #top-scholar-btns {
