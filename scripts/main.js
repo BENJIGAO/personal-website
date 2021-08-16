@@ -15,7 +15,6 @@ function activateBtns() {
 
 function showTopScholar() {
   document.getElementById("top-scholar-img").classList.add("display")
-  console.log("enter")
 }
 
 function hideTopScholar() {
@@ -33,7 +32,7 @@ function hideSchoolAwards() {
 function removeHover(e) {
   // finds relevant "project-main" div
   // done b/c event target is sometimes nested element
-  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
+  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1].classList[0] == "project-main" ? e.path[1] : e.path[2];
   projectMain.classList.remove("project-main-hover");
   projectMain.firstElementChild.classList.remove("dropdown-hover")
   projectMain.firstElementChild.nextElementSibling.classList.remove("project-header-hover")
@@ -41,7 +40,7 @@ function removeHover(e) {
 }
 
 function addHover(e) {
-  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
+  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1].classList[0] == "project-main" ? e.path[1] : e.path[2];
   projectMain.classList.add("project-main-hover");
   projectMain.firstElementChild.classList.add("dropdown-hover");
   projectMain.firstElementChild.nextElementSibling.classList.add("project-header-hover")
@@ -49,7 +48,7 @@ function addHover(e) {
 }
 
 function showContent(e) {
-  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1];
+  const projectMain = e.path[0].classList[0] == "project-main" ? e.path[0] : e.path[1].classList[0] == "project-main" ? e.path[1] : e.path[2];
   const projectDropdown = projectMain.nextElementSibling
   projectDropdown.classList.toggle("visible")
   projectMain.firstElementChild.classList.toggle("rotated-dropdown")
