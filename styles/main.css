@@ -599,3 +599,7 @@ figure {
   display: flex;
   align-items: center;
 }
+
+.contact-info:hover {
+  text-decoration: underline;
+}
