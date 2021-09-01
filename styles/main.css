@@ -446,13 +446,17 @@ i {
 }
 
 #top-scholar-picture {
-  background-image: url("../imgs/top-scholar.png");
-  background-size: 40em;
+  background-image: url("../imgs/top-scholars.png");
+  background-size: 22em;
+}
+
+#school-awards-img {
+  height: 26em;
 }
 
 #school-awards-picture {
   background-image: url("../imgs/school-awards.jpg");
-  background-size: 14em;
+  background-size: 27em;
   display: flex;
   justify-content: center;
 }
