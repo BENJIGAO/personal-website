@@ -456,15 +456,16 @@ i {
 
 #school-awards-picture {
   background-image: url("../imgs/school-awards.jpg");
-  background-size: 27em;
-  display: flex;
+  background-size: 33em;
   justify-content: center;
+  height: 100%;
 }
 
 #school-awards-btns {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 40%;
 }
 
 .school-award-btn-top {
@@ -478,6 +479,7 @@ i {
 #school-link-btn {
   background-color: #ffb52c;
   width: 100%;
+  height: 90%;
 }
 
 #school-link-btn:hover,
@@ -585,8 +587,8 @@ figcaption {
 }
 
 #last-container {
+  width: 30%;
   justify-content: space-evenly;
-  width: 60%;
 }
 
 #skills-nav,
