@@ -410,11 +410,6 @@ i {
   font-style: italic;
 }
 
-.award-anecdote {
-  font-size: 1.2em;
-  display: none;
-}
-
 #top-scholar-btns {
   display: flex;
   padding: 0.5em 0em 0.5em 0em;
