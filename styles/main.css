@@ -609,7 +609,14 @@ figcaption {
   text-decoration: underline;
 }
 
-.about-me-link {
+.about-me-link,
+.intro-link {
   text-decoration: underline;
   font-family: "DM Sans", sans-serif;
+}
+
+.intro-link {
+  text-decoration: None;
+  color: inherit;
+  font-weight: 600;
 }
