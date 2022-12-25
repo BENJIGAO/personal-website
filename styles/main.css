@@ -355,7 +355,7 @@ hr {
   display: flex;
   align-items: center;
   margin: 1em 0em;
-  width: 40%;
+  width: 45%;
   justify-content: space-evenly;
 }
 
@@ -369,14 +369,11 @@ i {
 
 .more-space {
   line-height: 1.5em;
+  margin-top: 5px;
 }
 
 .bigger-size {
   font-size: 5em;
-}
-
-#frameworks-container {
-  width: 30%;
 }
 
 #awards {
@@ -433,6 +430,7 @@ i {
 
 #projects {
   display: flex;
+  max-width: 77rem;
   flex-direction: column;
 }
 
