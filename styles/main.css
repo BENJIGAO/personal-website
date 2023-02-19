@@ -233,22 +233,12 @@ h1 {
   transform: rotate(90deg);
 }
 
-.project-main-hover {
-  background-color: #4e4e4e;
+.project-main:hover + .project-dropdown {
+  display: block;
 }
 
-.project-description-hover {
-  color: #e9eeee;
-}
-
-.dropdown-hover {
-  color: #e9eeee;
-}
-
-.project-header-hover {
-  border-color: #e9eeee;
-  color: #e9eeee;
-  background-color: #029402;
+.project-dropdown:hover {
+  display: block;
 }
 
 .extra-details {
