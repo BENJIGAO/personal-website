@@ -595,13 +595,27 @@ figcaption {
 }
 
 .about-me-link,
+.resume-link,
 .intro-link {
   text-decoration: underline;
   font-family: "DM Sans", sans-serif;
+  color: blue;
 }
 
-.intro-link {
-  text-decoration: None;
-  color: inherit;
-  font-weight: 600;
+.about-me-link:visited,
+.resume-link:visited,
+.intro-link:visited {
+  color: blue;
+}
+
+.about-me-link:hover,
+.resume-link:hover,
+.intro-link:hover {
+  color: blue;
+}
+
+.about-me-link:active,
+.resume-link:active,
+.intro-link:active {
+  color: blue;
 }
