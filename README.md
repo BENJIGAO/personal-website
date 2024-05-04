@@ -1,3 +1,3 @@
 # Personal Website
 
-Welcome to my website! It features a quick introduction of myself, followed by a projects, skills, awards, and about me section, respectively. Looks best with a laptop/desktop screen. 
+Welcome to my website! It has information about myself, my projects, skills, and awards. For the best viewing experience, view the website on a laptop/desktop screen.
